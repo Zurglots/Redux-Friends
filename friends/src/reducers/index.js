@@ -1,6 +1,8 @@
 // import action types
 
-const initalState = {};
+const initalState = {
+  friends: []
+};
 
 function reducer(state = initalState, action) {
   console.log("reducer", action);
